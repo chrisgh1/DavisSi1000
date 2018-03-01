@@ -64,7 +64,7 @@ class Si1000(weewx.abstractstation.AbstractStation):
             'wind_direction_degrees' : ('windDir',   self.adjust_wind_direction),
             'wind_speed_mph'         : ('windSpeed', None),
             'temperature_F'          : ('outTemp',   None),
-            'humidity_pct'           : ('humidity',  None),
+            'humidity_pct'           : ('outHumidity',  None),
             'rain_spoons'            : ('rain',      self.convert_rain)
             }
 
